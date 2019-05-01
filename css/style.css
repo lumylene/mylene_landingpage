@@ -1,4 +1,4 @@
-/* Have fun kiddoz! */
+/* Stylesheet for landing page */
 
 #mainNav {
   min-height: 56px;
@@ -7,8 +7,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #ff6e69;
+  border: 1px solid #ff6e69;
 }
 #mainNav .navbar-toggler:focus {
   outline: 0;
@@ -65,15 +65,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #ff6e69;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #e5635e;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #ff6e69;
     outline: 0;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #ff6e69;
   }
 }
 .masthead {
@@ -151,17 +151,17 @@
   border: 0;
 }
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #ff6e69;
 }
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #e5635e;
 }
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #ff7c78;
   color: #fff;
 }
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #ff6e69 !important;
 }
 .about-section {
   padding-top: 10rem;
@@ -192,7 +192,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #ff6e69;
   }
 }
 .projects-section .project-text {
@@ -215,7 +215,7 @@
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #ff6e69;
 }
 .contact-section .card h4 {
   font-size: 0.8rem;
@@ -224,7 +224,7 @@
   letter-spacing: 0.15rem;
 }
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #ff6e69;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -251,22 +251,50 @@ body {
   letter-spacing: 0.0625em;
 }
 a {
-  color: #64a19d;
+  color: #ff6e69;
 }
 a:focus,
 a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #e5635e;
 }
 .bg-black {
   background-color: #161616 !important;
 }
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #ff6e69 !important;
 }
 .text-primary {
-  color: #64a19d !important;
+  color: #ff6e69 !important;
 }
 footer {
   padding: 5rem 0;
 }
+
+/*#projectThree_img,
+#projectThree_text {
+  height: 21vh;
+  margin-bottom: 2vh;
+}*/
+
+/*#projectThree_img {
+  height: 300px;
+  margin-bottom: 2vh;
+}*/
+
+h4 {
+  margin-bottom: 20px;
+  font-size: 1.4em;
+}
+
+#img-fluid {
+  height: 100px;
+}
+
+.projectpicture {
+  height: 20vh;
+}
+
+/*.bigButton {
+  width: 500px;
+}*/
